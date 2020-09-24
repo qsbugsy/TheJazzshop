@@ -1,0 +1,47 @@
+.header{
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.header-name{
+  width: 100px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 18px;
+}
+
+.header_optionBasket{
+  display: flex;
+
+}
+.header_basketCount{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header_nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_option{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header_optionLineOne{
+  font-size: 10px;
+}
+.header_optionLineTwo{
+  font-size: 13px;
+  font-weight: 800;
+}
+.header_link{
+  color: white;
+  text-decoration: none;
+}
